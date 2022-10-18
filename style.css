@@ -13,7 +13,6 @@ html *
 .dark-background {
   background-color: #7a7a7a;
   color: white;
-   background-size: cover;
 }
 /*<--*****************this was a font attempt. now if i remove it everything breaks and I dont know why **************--> */
 body{
@@ -27,7 +26,6 @@ body{
 
   background-color: #d4d4d4;
   color: #1E1E1E;
-   background-size: cover;
 }
 /*<--***************** custom header **************--> */
 header{
@@ -40,7 +38,7 @@ h1 {
   text-align: center;
   color: #fff;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font-size: 65px !important
+  font-size: 65px !important;
   text-transform: uppercase;
   margin-top: 0px;            
   margin-bottom: 0px; 
@@ -70,15 +68,16 @@ h2 {
 /*<--***************** gradients for fixing background imagery **************--> */
 .gradient1{
     background-image: linear-gradient(#7a7a7a, #d4d4d4)
-       background-size: cover;
 }
 .gradient2{
     background-image: linear-gradient(#d4d4d4, #7a7a7a)
-       background-size: cover;
 }
 
 /*<--***************** psuedoclass **************--> */
 div::first-letter{
   font-size: 30px;
   font-color:blue
+}
+h1::first-letter{
+font-size: 100px
 }
