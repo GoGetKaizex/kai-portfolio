@@ -1,0 +1,80 @@
+/*<!-- background, color, font-family, font-size,
+height, margin, padding, text-align */
+
+/*<--*****************      Setting global font**************--> */
+html *
+{
+   font-size: 1em ;
+   color: #000 !important;
+   font-family:  Calibri, 'light', sans-serif !important;
+}
+
+/*<--*****************setting background color for use in specific elements.**************--> */
+.dark-background {
+  background-color: #7a7a7a;
+  color: white;
+}
+/*<--*****************this was a font attempt. now if i remove it everything breaks and I dont know why **************--> */
+body{
+  @font-face {
+  font-family: baha;
+  src: "/fonts/baha.ttf";
+}
+}
+/*<--***************** lighter grey background for use in elements **************--> */
+.light-background {
+
+  background-color: #d4d4d4;
+  color: #1E1E1E;
+}
+/*<--***************** custom header **************--> */
+header{
+  height: 100px;
+  background: 
+  background-size: cover;
+}
+/*<--***************** setting up h1 elements**************--> */
+h1 {
+  text-align: center;
+  color: #fff;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 65px;
+  text-transform: uppercase;
+  margin-top: 0px;            
+  margin-bottom: 0px; 
+
+}
+/*<--***************** h2 elements **************--> */
+
+h2 {
+  text-align: center;
+  font-family:'Times New Roman', Times, serif !important
+  font-size: 100px
+}
+/*<--***************** all positionals **************--> */
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+.center-text {
+  text-align: center;
+  list-style-position: inside;
+}
+.align-right{
+  text-align:right;
+}
+/*<--***************** gradients for fixing background imagery **************--> */
+.gradient1{
+    background-image: linear-gradient(#7a7a7a, #d4d4d4)
+}
+.gradient2{
+    background-image: linear-gradient(#d4d4d4, #7a7a7a)
+}
+
+/*<--***************** psuedoclass **************--> */
+div::first-letter{
+  font-size: 30px;
+  font-color:blue
+}
