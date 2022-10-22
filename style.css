@@ -4,7 +4,7 @@ height, margin, padding, text-align */
 /*<--*****************      Setting global font**************--> */
 html *
 {
-   font-size: 1em ;
+   font-size: 20px ;
    color: #000 !important;
    font-family:  Calibri, 'light', sans-serif !important;
 }
@@ -17,12 +17,14 @@ html *
 
 }
 /*<--*****************this was a font attempt. now if i remove it everything breaks and I dont know why **************--> */
+/*
 body{
   @font-face {
   font-family: baha;
   src: "/fonts/baha.ttf";
 }
 }
+*/
 /*<--***************** lighter grey background for use in elements **************--> */
 .light-background {
 
@@ -72,7 +74,7 @@ h2 {
 /*<--***************** gradients for fixing background imagery **************--> */
 .gradient1{
     background-image: linear-gradient(#7a7a7a, #d4d4d4)
-    
+  
 }
 .gradient2{
     background-image: linear-gradient(#d4d4d4, #7a7a7a)
@@ -87,3 +89,24 @@ div::first-letter{
 h1::first-letter{
 font-size: 100px
 }
+
+
+.ank{
+  font-color:green !important
+}
+        a:link {
+            color: blue;
+        }
+  
+        a:visited {
+            color: red;
+        }
+  
+        a:hover {
+            color: green;
+        }
+  
+        a:active {
+            color: orange;
+        }
+    </style>
