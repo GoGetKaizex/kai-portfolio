@@ -5,14 +5,14 @@ height, margin, padding, text-align */
 html *
 {
    font-size: 20px ;
-   color: #000 !important;
+   color: #000 ;
    font-family:  Calibri, 'light', sans-serif !important;
 }
 
 /*<--*****************setting background color for use in specific elements.**************--> */
 .dark-background {
   background-color: #7a7a7a;
-  color: white;
+  color: black;
     background-size: cover;
 
 }
@@ -42,7 +42,7 @@ header{
 /*<--***************** setting up h1 elements**************--> */
 h1 {
   text-align: center;
-  color: #fff;
+  color: #000000;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 65px !important;
   text-transform: uppercase;
@@ -84,29 +84,23 @@ h2 {
 /*<--***************** psuedoclass **************--> */
 div::first-letter{
   font-size: 30px;
-  font-color:blue
+  color:blue
 }
 h1::first-letter{
 font-size: 100px
 }
 
-
-.ank{
-  font-color:green !important
+/*<--***************** link color fun **************--> */
+a:link{
+  color:green;
+   background-color: grey;
 }
-        a:link {
-            color: blue;
-        }
-  
-        a:visited {
-            color: red;
-        }
-  
-        a:hover {
-            color: green;
-        }
-  
-        a:active {
-            color: orange;
-        }
+a:hover{
+  color:red;
+   background-color: grey;
+}
+a:visited{
+  color:orange;
+   background-color: grey;
+}
     </style>
